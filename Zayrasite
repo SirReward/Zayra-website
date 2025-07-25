@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZAYRA | The Signature of Elegance</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fffaf5;
+      color: #3a2c1e;
+    }
+    header {
+      background: #000;
+      color: gold;
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-style: italic;
+      font-size: 1.1rem;
+    }
+    .container {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .services {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .services ul {
+      list-style-type: square;
+    }
+    .contacts {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .qr-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .qr-section img {
+      width: 130px;
+      height: auto;
+    }
+    .qr-note {
+      font-size: 0.8rem;
+      font-style: italic;
+    }
+    .address {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .icon {
+      margin-right: 5px;
+    }
+    @media (max-width: 768px) {
+      .services, .contacts, .qr-section {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ZAYRA</h1>
+    <p>The Signature of Elegance</p>
+  </header>
+  <div class="container">
+    <div class="services">
+      <ul>
+        <li>Bridal Couture</li>
+        <li>Custom Dresses</li>
+        <li>Graduation & Matric Wear</li>
+        <li>Corporate & School Uniforms</li>
+      </ul>
+      <ul>
+        <li>Elegant Dinner/Evening Dresses</li>
+        <li>Cultural Wear</li>
+        <li>Traditional Bridal Outfits</li>
+        <li>Haute Couture Styling</li>
+      </ul>
+    </div><div class="contacts">
+  <p><img class="icon" src="https://img.icons8.com/ios-glyphs/30/whatsapp.png" width="16"/> Reward: +27 72 345 6789</p>
+  <p><img class="icon" src="https://img.icons8.com/ios-glyphs/30/whatsapp.png" width="16"/> Kadija: +27 64 123 4567</p>
+</div>
+
+<div class="qr-section">
+  <img src="./qr-code.png" alt="Scan to Save" />
+  <p class="qr-note">Scan to save contact or navigate with Uber, Bolt or Google Maps</p>
+</div>
+
+<div class="address">
+  <p><img class="icon" src="https://img.icons8.com/ios-filled/50/map-marker.png" width="16"/> 123 Elegance Lane, Johannesburg, South Africa</p>
+</div>
+
+  </div>
+</body>
+</html>
